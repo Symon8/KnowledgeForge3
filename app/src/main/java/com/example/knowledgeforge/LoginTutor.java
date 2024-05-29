@@ -15,11 +15,11 @@ public class LoginTutor extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageButton btn = (ImageButton) findViewById(R.id.imageButton2);
+        setContentView(R.layout.activity_logintutor);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageButton btn = (ImageButton) findViewById(R.id.imageButton3);
 
-        EditText userName = (EditText)findViewById(R.id.idEdtUserName);
-        EditText passWord = (EditText)findViewById(R.id.editTextTextPassword);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) EditText userName = (EditText)findViewById(R.id.editTextText);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) EditText passWord = (EditText)findViewById(R.id.editTextText2);
 
         btn.setOnClickListener(new View.OnClickListener(){
             @Override
